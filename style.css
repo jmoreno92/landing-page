@@ -1,4 +1,29 @@
-* {
+body p {
     color: blue;
     border: 1px solid darkred;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background: darkmagenta;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background: darkblue;
+    color: white;
 }
